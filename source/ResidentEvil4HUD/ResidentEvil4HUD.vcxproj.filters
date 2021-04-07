@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\code">
+      <UniqueIdentifier>{5514fc84-97fb-42d0-b356-c92dc9d2c975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\manhunt">
+      <UniqueIdentifier>{7989916c-931b-441f-ac76-2ef8f2c8c172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\AI.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\AmmoWeapon.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Anim.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\App.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Character.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Cheats.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Clump.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\ClumpDict.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Collectable.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\core.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\CreationManager.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\DevMenu.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Entity.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\EntityManager.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Filenames.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Frontend.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Input.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Inventory.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\MaterialMananger.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Misc.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Player.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Renderer.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Scene.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Script.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Shot.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\SpecialFX.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\String.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Text.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Time.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\TypeData.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Vector.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="manhunt\Weapon.h">
+      <Filter>Header Files\manhunt</Filter>
+    </ClInclude>
+    <ClInclude Include="code\eResidentEvil4HUD.h">
+      <Filter>Header Files\code</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\AI.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\AmmoWeapon.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Anim.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\App.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Character.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Cheats.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\ClumpDict.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Collectable.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\CreationManager.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Entity.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\EntityManager.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Filenames.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Frontend.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Input.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Inventory.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Misc.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Player.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Renderer.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Scene.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Script.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\SpecialFX.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\String.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Text.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="manhunt\Time.cpp">
+      <Filter>Header Files\manhunt</Filter>
+    </ClCompile>
+    <ClCompile Include="code\eResidentEvil4HUD.cpp">
+      <Filter>Header Files\code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ResidentEvil4HUD.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
